@@ -1,0 +1,853 @@
+.admin-layout {
+    background: none !important;
+}
+
+.admin-layout .ant-layout {
+    border-radius: 30px 0 0 30px;
+}
+
+.ant-menu-inline {
+    border-right: none !important;
+}
+
+.ant-menu {
+    background: none !important;
+}
+
+.ant-menu-horizontal {
+    border: none !important;
+}
+
+.admin-sider-menu li {
+    margin-left: 14px;
+    width: 237px;
+    border-radius: 12px;
+}
+
+body {
+    background: #F3F5F7;
+}
+
+.admin-sider {
+    background: #F3F5F7;
+}
+
+.admin-sider li span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #253445;
+}
+
+.admin-sider .logo {
+    margin: 42px 0 40px 24px;
+}
+
+.admin-sider-menu {
+    padding-right: 62px;
+}
+
+.admin-header,
+.main-content {
+    padding: 0 40px 0 30px;
+}
+
+.admin-header {
+    margin-top: 42px;
+}
+
+.admin-logout {
+    background: #F6F6F6;
+    border-radius: 12px;
+    border: none;
+    width: 45px;
+    height: 45px;
+    margin-left: 13px;
+}
+
+.admin-logout:hover,
+.admin-logout:active,
+.admin-logout:focus {
+    background: #f2f2f2;
+}
+
+.admin-name-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #262635;
+}
+
+.new-order-btn {
+    display: flex;
+    align-items: center;
+    background: #02C24F;
+    box-shadow: 0 4px 15px 2px rgba(2, 194, 79, 0.15);
+    border-radius: 12px;
+    padding: 17px 33px;
+    margin: 10px 0 32px 0;
+    border: none;
+}
+
+.new-order-btn span {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.new-order-btn:hover,
+.new-order-btn:active,
+.new-order-btn:focus {
+    background: #03b048;
+    border: none;
+}
+
+.orders-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2B3C4B;
+}
+
+.admin-divider {
+    margin: 15px 0;
+}
+
+.ant-table-thead>tr>th:first-child {
+    border-radius: 20px 0 0 20px !important;
+}
+
+.ant-table-thead>tr>th:last-child {
+    border-radius: 0 20px 20px 0 !important;
+}
+
+.ant-table-thead>tr>th {
+    background: #F3F5F7;
+    box-shadow: 0 4px 8px 2px rgba(243, 245, 247, 0.25);
+}
+
+.ant-table-cell-row-hover {
+    background: none !important;
+}
+
+.ant-table-thead>tr>th {
+    border: none;
+}
+
+.ant-table-cell::before {
+    background: none !important;
+}
+
+td.ant-table-cell {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #666666;
+}
+
+th.ant-table-cell {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #686868
+}
+
+.admin-action-btn {
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
+.admin-action-btn:hover,
+.admin-action-btn:active,
+.admin-action-btn:focus {
+    background: none;
+    border: none;
+}
+
+.admin-action-btn {
+    margin-right: 10px;
+}
+
+.admin-action-btn span svg {
+    height: 20px;
+    width: 20px;
+}
+
+.admin-input div div div input {
+    background: #F3F5F7;
+    box-shadow: 0 4px 8px 2px rgba(222, 222, 222, 0.25);
+    border-radius: 12px;
+    border: none;
+    height: 45px;
+}
+
+.admin-select .ant-select-selector {
+    display: flex;
+    align-items: center;
+    height: 45px !important;
+}
+
+.ant-select-item {
+    line-height: 30px;
+}
+
+.admin-label {
+    display: block;
+    width: 100%;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 13px 0;
+    color: #686868;
+}
+
+.admin-input div div div {
+    display: block;
+}
+
+.first-column-table {
+    width: 96%;
+}
+
+.admin-input div div div input::placeholder,
+.admin-select div span {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.form-btn div div div {
+    margin: 15px 0 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.green-btn-submit {
+    display: flex;
+    align-items: center;
+    background: #CCF0BF;
+    padding: 20px 40px;
+    box-shadow: 4px 4px 15px 2px rgba(204, 240, 191, 0.25);
+    border-radius: 8px;
+    border: none;
+}
+
+.green-btn-submit:hover,
+.green-btn-submit:active,
+.green-btn-submit:focus {
+    border: none;
+    background: #CCF0BF;
+}
+
+.green-btn-submit span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #262635
+}
+
+.admin-modal .ant-modal-content {
+    box-shadow: 0 0 15px 2px rgba(170, 170, 170, 0.15);
+    border-radius: 12px;
+}
+
+.admin-modal .ant-modal-header {
+    border-radius: 12px 12px 0 0;
+}
+
+.admin-modal .ant-form-item-control-input-content input {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.admin-modal .ant-modal-body {
+    padding: 0 40px 1px 40px;
+}
+
+.admin-modal .ant-modal-header {
+    padding: 16px 24px 5px 40px;
+}
+
+.admin-modal .ant-modal-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #262635;
+    margin-bottom: 15px;
+}
+
+.admin-select-filter {
+    display: flex;
+    align-items: center;
+    background: #F3F5F7;
+    height: 45px;
+    box-shadow: 0 4px 8px 2px rgba(243, 245, 247, 0.25);
+    border-radius: 12px;
+    margin-bottom: 15px;
+    border: none;
+}
+
+.admin-select-filter .ant-select-selector {
+    display: flex;
+    background: #F3F5F7 !important;
+    box-shadow: none !important;
+    align-items: center;
+    height: 45px !important;
+}
+
+.admin-layout .ant-select-item-option {
+    height: 45px;
+}
+
+.admin-status-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    box-shadow: none;
+    border: none;
+    border-radius: 8px;
+    width: 139px;
+}
+
+.admin-status-btn span {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.admin-apps-table td:last-child {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.admin-apps-process-btn {
+    background: #F29F00;
+}
+
+.admin-apps-moderate-btn {
+    background: #F27400;
+}
+
+.admin-apps-success-btn {
+    background: #02C24F;
+}
+
+.admin-apps-cancel-btn {
+    background: #FF615F;
+}
+
+.admin-apps-expired-btn {
+    background: #A5A5A5;
+}
+
+.admin-apps-process-btn:hover,
+.admin-apps-process-btn:active,
+.admin-apps-process-btn:focus {
+    background: #e69500;
+}
+
+.admin-apps-moderate-btn:hover,
+.admin-apps-moderate-btn:active,
+.admin-apps-moderate-btn:focus {
+    background: #e66f00;
+}
+
+.admin-apps-success-btn:hover,
+.admin-apps-success-btn:active,
+.admin-apps-success-btn:focus {
+    background: #02b148;
+}
+
+.admin-apps-cancel-btn:hover,
+.admin-apps-cancel-btn:active,
+.admin-apps-cancel-btn:focus {
+    background: #ff4f4d;
+}
+
+.admin-apps-expired-btn:hover,
+.admin-apps-expired-btn:active,
+.admin-apps-expired-btn:focus {
+    background: #999999;
+}
+
+.admin-psevdo-input {
+    user-select: none;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    width: 97%;
+    height: 45px;
+    background: #F6F6F6;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.admin-copiable {
+    user-select: auto;
+}
+
+.admin-psevdo-input a {
+    color: #686868;
+    text-decoration: underline !important;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.select-place-black .ant-select-selection-item::placeholder {
+    color: #686868;
+}
+
+.select-place-black div {
+    box-shadow: none;
+}
+
+.admin-text-area {
+    height: 106px;
+    background: #F3F5F7;
+    border-radius: 12px;
+}
+
+.admin-apps-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2B3C4B;
+}
+
+.admin-apps-tabs .ant-tabs-nav-list {
+    margin-bottom: 7px;
+}
+
+.admin-apps-tabs .ant-tabs-tab-btn {
+    text-shadow: none;
+}
+
+.admin-apps-tabs .ant-tabs-tab-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #B5B5B5;
+}
+
+.admin-apps-tabs>.ant-tabs-nav .ant-tabs-tab,
+.admin-apps-tabs>div>.ant-tabs-nav .ant-tabs-tab {
+    background: none;
+    border: none;
+}
+
+.admin-default-link {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #434343;
+}
+
+.admin-default-link:hover {
+    color: #434343;
+}
+
+.admin-channels-buttons {
+    display: flex;
+}
+
+
+
+.admin-status-channels .ant-select-selector,
+.admin-status-channels {
+    width: 150px;
+    height: 30px !important;
+    border-radius: 8px;
+}
+
+.admin-status-channels,
+.admin-status-channels .ant-select-selection-item,
+.admin-status-channels .ant-select-selector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin-status-channels .ant-select-selection-item {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.admin-status-channels-deactive .ant-select-selector {
+    background: #FF615F !important;
+}
+
+.admin-status-channels-active .ant-select-selector {
+    background: #02C24F !important;
+}
+
+.admin-channels-buy-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 118px;
+    height: 30px;
+    background: #6C6C6C;
+    border-radius: 8px;
+    border: none;
+    margin-right: 15px;
+}
+
+.admin-channels-buy-btn:hover,
+.admin-channels-buy-btn:active,
+.admin-channels-buy-btn.focus {
+    background: #666666 !important;
+}
+
+.admin-channels-buy-btn {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.margins-for-link {
+    margin: 0 20px 0 46px;
+}
+
+.admin-channels-search,
+.admin-channels-search input {
+    background: #ECECEC;
+    border-radius: 12px;
+    border: none;
+    height: 45px;
+}
+
+.ant-input-search-button,
+.ant-input-group-addon {
+    background: #ECECEC;
+    border: none;
+    box-shadow: none;
+    border-radius: 100% !important;
+}
+
+.ant-input-search-button:hover,
+.ant-input-search-button:active,
+.ant-input-search-button:focus {
+    background: none;
+    box-shadow: none;
+    border: none;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.ant-typography p,
+div.ant-typography {
+    margin: 0;
+}
+
+.ant-typography-edit {
+    position: absolute;
+    top: 21px;
+}
+
+.admin-products-btn-status {
+    width: 118px;
+    height: 25px;
+    border-radius: 8px;
+}
+
+.admin-products-btn-status {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.admin-products-btn-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 30px;
+    border: none;
+    background: #B5B5B5;
+    border-radius: 12px !important;
+    margin-right: 10px;
+}
+
+.admin-products-btn-info span svg {
+    fill: #FFFFFF;
+    width: 15px;
+    height: 15px;
+}
+
+.admin-products-btn-info span {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.admin-products-status-btn .ant-select-selector,
+.admin-products-status-btn {
+    width: 150px;
+    height: 30px !important;
+    border-radius: 8px;
+}
+
+.admin-products-status-btn,
+.admin-products-status-btn .ant-select-selection-item,
+.admin-products-status-btn .ant-select-selector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin-products-status-btn .ant-select-selection-item {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.admin-status-status-btn-proccess .ant-select-selector {
+    background: #F29F00 !important;
+}
+
+.admin-status-status-btn-success .ant-select-selector {
+    background: #02C24F !important;
+}
+
+.admin-status-status-btn-archive .ant-select-selector {
+    background: #B5B5B5 !important;
+}
+
+.admin-status-status-btn-waiting .ant-select-selector {
+    background: #0086BF !important;
+}
+
+.ant-tabs-ink-bar {
+    background: none;
+}
+
+.admin-new-user-btn {
+    background: #F29F00;
+    box-shadow: 0 4px 15px 2px rgba(242, 159, 0, 0.15);
+    border-radius: 12px;
+    border: none;
+    margin-right: 10px;
+    height: 45px;
+}
+
+.admin-new-user-btn span {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.admin-delete-user-btn {
+    background: none;
+    border: none;
+    user-select: none;
+}
+
+.admin-delete-user-btn span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration-line: underline !important;
+    color: #FF615F;
+}
+
+.admin-withdraw-status-btn {
+    width: 139px;
+    height: 25px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.admin-withdraw-status-btn-success {
+    background: #02C24F;
+}
+
+.admin-withdraw-status-btn-process {
+    background: #F29F00;
+}
+
+.admin-withdraw-status-btn-canceled {
+    background: #FF615F;
+}
+
+.admin-design-upload-btn {
+    width: 182px;
+    height: 40px;
+    background: #02C24F;
+    box-shadow: 0 4px 8px 2px rgba(2, 194, 79, 0.25);
+    border-radius: 12px;
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.admin-design-status {
+    text-align: center;
+    align-items: center;
+    width: 130px;
+    padding: 6px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.admin-action-buttons {
+    display: flex;
+    float: right;
+}
+
+.admin-actions-header {
+    text-align: right !important;
+}
+
+.admin-design-status-active {
+    background: #02C24F;
+}
+
+.admin-design-status-used {
+    background: #B5B5B5;
+}
+
+.admin-design-status-reserved {
+    background: #F29F00;
+}
+
+.admin-mini-btn-editor-prices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 161px;
+    height: 34px;
+    background: #B5B5B5;
+    border-radius: 12px;
+    border: none;
+    font-weight: 600;
+    font-size: 12px;
+    margin: 10px 0 32px 10px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.admin-minus-btn-editor {
+    margin-top: 62px;
+    margin-left: 10px;
+}
+
+.admin-add-new-editor-price {
+    border: none;
+    background: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: underline !important;
+    color: #000000;
+}
+
+.admin-add-new-editor-price:hover {
+    color: #000000;
+}
+
+.admin-mini-status-active .ant-select-selector {
+    background: #02C24F !important;
+}
+
+.admin-mini-status-deactive .ant-select-selector {
+    background: #F29F00 !important;
+}
+
+.admin-mini-status .ant-select-selection-item {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF !important;
+}
+
+.admin-mini-status .ant-select-selector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin-mini-status .ant-select-arrow {
+    margin-top: -5px;
+}
+
+.admin-mini-status .ant-select-arrow span svg {
+    fill: #FFFFFF;
+}
+
+.admin-mini-status {
+    margin-right: 10px;
+}
+
+.admin-page-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #262635;
+}
+
+.admin-sider-menu .ant-menu-item-selected,
+.admin-sider-menu .ant-menu-item-selected a,
+.ant-menu-item-selected a:hover {
+    color: rgba(0, 0, 0, .85) !important;
+    background: #E5E7E9 !important;
+}
+
+.ant-menu-inline .ant-menu-item:after,
+.ant-menu-vertical-left .ant-menu-item:after,
+.ant-menu-vertical-right .ant-menu-item:after,
+.ant-menu-vertical .ant-menu-item:after {
+    border: none !important;
+}
+
+.admin-link,
+.admin-link:hover {
+    color: #666666;
+}
+
+.template-text {
+    background: #F6F6F6;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 18px;
+    user-select: none;
+    border: none;
+    cursor: pointer;
+}
+
+#edit-template_trade,
+#edit-template_accs {
+    min-height: 340px;
+}
+
+.admin-w-60 {
+    display: flex;
+    width: 50%;
+}

@@ -1,0 +1,133 @@
+.stats {
+    margin: 20px 0;
+}
+
+.stat-box {
+    background-color: #D8D6D6;
+    margin: 10px;
+    padding: 20px 30px;
+    border-radius: 12px;
+}
+
+.stat-box div {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.stat-box div span {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+.text-black div,
+.text-black div span {
+    color: #262635;
+}
+
+.text-black .ant-statistic-title {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.count-sales {
+    background: #3A7DDD;
+    box-shadow: 4px 4px 15px 2px rgba(58, 125, 221, 0.15);
+}
+
+.sum-sales {
+    background: #6859F3;
+    box-shadow: 4px 4px 15px 2px rgba(104, 89, 243, 0.15);
+}
+
+.profit {
+    background: #02C24F;
+    box-shadow: 4px 4px 15px 2px rgba(2, 194, 79, 0.15);
+}
+
+.workspace {
+    background: #F29F00;
+    box-shadow: 4px 4px 15px 2px rgba(242, 159, 0, 0.15);
+}
+
+.filter-select {
+    background: #F3F5F7;
+    width: 190px;
+    border-radius: 12px;
+    margin-right: 20px;
+}
+
+.filters {
+    margin: 10px;
+}
+
+.white-text {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.stat-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.stat-subtitle {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #262635;
+}
+
+.rating-stat {
+    margin: 28px 25px 42px 0;
+}
+
+.stats-table-col {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 34px 0 26px;
+    margin-bottom: 10px;
+}
+
+.table-items-stats div,
+.table-items-stats div div {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #B5B5B5;
+}
+
+.stats-table-card {
+    background: #F3F5F7;
+    border-radius: 12px;
+    padding: 16px 34px 16px 26px;
+    margin-bottom: 10px;
+}
+
+.stats-table-card div {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #262635;
+}
+
+.id-name {
+    display: flex;
+}
+
+.id-name .id {
+    width: 20px;
+    margin-right: 50px;
+}
+
+.rating-info {
+    padding-right: 100px;
+}

@@ -1,0 +1,17 @@
+.change-mini-status-switch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    width: 637px;
+    height: 40px;
+    background: #F6F6F6;
+    border-radius: 12px;
+}
+
+.status-mini-switch-text {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #262635;
+}

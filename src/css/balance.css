@@ -1,0 +1,265 @@
+.balance-main {
+    background: #02C24F;
+    box-shadow: 0 4px 15px 2px rgba(2, 194, 79, 0.15);
+    border-radius: 12px;
+    padding: 18px 30px;
+}
+
+.balance-descrp {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.balance-count {
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+
+.balance-hold {
+    background: #D8D6D6;
+    box-shadow: 0 4px 15px 2px rgba(211, 211, 211, 0.15);
+    border-radius: 12px;
+    padding: 18px 30px;
+}
+
+.weighnorlal-white {
+    color: #FFFFFF;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 59px;
+}
+
+.weighnorlal-black {
+    color: #000000;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 59px;
+}
+
+.balance-hold-dscr {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #262635;
+}
+
+.hold-count {
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 59px;
+    color: #262635;
+}
+
+.mb15 {
+    margin-bottom: 15px;
+}
+
+.withdraw {
+    background: #F29F00;
+    box-shadow: 0 4px 15px 2px rgba(242, 159, 0, 0.15);
+    padding: 26px 20px 20px 35px;
+    border-radius: 12px;
+}
+
+.withdraw-btn {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+    padding: 10px 42px;
+    border: none;
+}
+
+.withdraw-btn-class {
+    justify-content: flex-end;
+    display: flex;
+}
+
+.layout-withdraw {
+    margin-right: 5px;
+}
+
+.withdraw-btn:hover,
+.withdraw-btn:active,
+.withdraw-btn:focus {
+    background: rgba(255, 255, 255, 0.5) !important;
+}
+
+.with-input {
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 12px;
+    height: 40px;
+    border: none;
+    width: 100%;
+}
+
+.with-input::placeholder,
+#withdraw_sum::placeholder,
+.ant-input-suffix {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+#withdraw_sum {
+    background: none;
+}
+
+.w120,
+.w120 div,
+.w120 div div,
+.w120 div div div {
+    width: 120%;
+}
+
+.w123,
+.w123 div,
+.w123 div div,
+.w123 div div div {
+    width: 121%;
+}
+
+.with-select div {
+    background: rgba(255, 255, 255, 0.7) !important;
+    border-radius: 12px;
+}
+
+.with-select,
+.with-select div {
+    height: 40px !important;
+}
+
+.with-select div span {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #262635;
+    margin-left: 10px;
+}
+
+.ant-form-item {
+    margin: 0 0 14px;
+}
+
+.form-descrb {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.form-title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.form-btn-text {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #413E45;
+}
+
+.history-title {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    color: #262635;
+}
+
+.ant-table-cell {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #262635;
+}
+
+.table-rows {
+    font-weight: 500;
+    background: none;
+    border: none;
+    font-size: 16px;
+    line-height: 20px;
+    color: #B5B5B5;
+}
+
+.green {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #02C24F;
+}
+
+.status-block {
+    border-radius: 8px;
+    border: none;
+    padding: 6px 30px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    max-width: 139px;
+}
+
+.status-success {
+    background: #02C24F;
+}
+
+.status-process {
+    background: #F29F00;
+}
+
+.status-cancel {
+    background: #FF615F;
+}
+
+.error-transaction {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FF615F;
+    text-align: right;
+}
+
+.ml33 {
+    margin-left: 33px;
+}
+
+.ant-form-item-has-error :not(.ant-input-affix-wrapper-disabled):not(.ant-input-affix-wrapper-borderless).ant-input-affix-wrapper {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.ant-form-item-explain-error {
+    color: #992F13;
+}
+
+.ml-15px {
+    margin-left: 15px;
+}
+
+.table-divider {
+    margin: 5px 0 22px 0;
+}
+
+.table-items {
+    margin: 22px 0 22px 0;
+}
+
+.align-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.reqwithints {
+    background: rgba(255, 255, 255, 0.25) !important;
+}

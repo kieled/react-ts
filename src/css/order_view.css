@@ -1,0 +1,286 @@
+main {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #262635;
+}
+
+.order-view-btn {
+    display: flex;
+    align-items: center;
+    background: #F6F6F6;
+    box-shadow: 4px 4px 15px 2px rgba(246, 246, 246, 0.15);
+    border-radius: 8px;
+    height: 45px;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #262635;
+    padding: 0 20px;
+}
+
+.open-channel-btn {
+    border: 1px solid #E3E3E3;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 15px 2px rgba(246, 246, 246, 0.15);
+    border-radius: 8px;
+    background: none;
+}
+
+
+.content-right {
+    display: flex;
+    justify-content: right;
+}
+
+.row-order-name {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.left-side-order-view {
+    padding-right: 50px;
+    padding-top: 36px;
+}
+
+.row-order-moderate {
+    display: flex;
+    justify-content: right;
+}
+
+.order-id {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #262635;
+}
+
+.step-text {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #262635;
+    margin-bottom: 18px;
+}
+
+.text-icon {
+    margin-right: 13px;
+    width: 24px;
+    height: 24px;
+}
+
+.text {
+    margin-bottom: 20px;
+}
+
+.download-btn {
+    display: flex;
+    align-items: center;
+    background: #FDE1AB;
+    box-shadow: 4px 4px 15px 2px rgba(253, 225, 171, 0.3);
+    border-radius: 8px;
+    border: none;
+    height: 45px;
+    padding: 0 58px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #262635;
+}
+
+.ant-switch-checked {
+    background: #CCF0BF;
+}
+
+.mr-13 {
+    margin-right: 13px;
+}
+
+.divider {
+    margin: 42px 0;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.email-text {
+    display: flex;
+    margin-left: 36px;
+    margin-bottom: 30px;
+}
+
+.btn-active {
+    background: #CCF0BF;
+}
+
+.btn-active:hover,
+.btn-active:active,
+.btn-active:focus {
+    background: #CCF0BF;
+}
+
+.bold-text {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #262635;
+}
+
+.info-yt-card {
+    background: #F6F6F6;
+    border-radius: 12px;
+    padding: 30px 35px 30px 30px;
+}
+
+.detail-view-email {
+    margin-left: 3px;
+}
+
+.text_underline {
+    text-decoration: underline !important;
+}
+
+.info-card-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #262635;
+}
+
+.info-card-subtitle {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #B5B5B5;
+}
+
+.info-yt-card-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #262635;
+    margin-bottom: 19px;
+}
+
+.icon-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    background: #FDE1AB;
+    box-shadow: 0 4px 15px 2px rgba(253, 225, 171, 0.25);
+    border-radius: 8px;
+}
+
+.grey-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #B5B5B5;
+}
+
+.value-text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #262635;
+    margin-bottom: 20px;
+}
+
+.bonus {
+    background: #BAE5F4;
+    box-shadow: 0 4px 15px 2px rgba(186, 229, 244, 0.25);
+    border-radius: 8px;
+}
+
+.timer {
+    background: #DBDBDB;
+    box-shadow: 0 4px 15px 2px rgba(210, 210, 210, 0.25);
+    border-radius: 8px;
+}
+
+.ant-statistic-title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0;
+    width: max-content;
+}
+
+.ant-statistic-content-value {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #262635;
+}
+
+.total-price {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 59px;
+    color: #262635;
+}
+
+.price-dr {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6F6F;
+}
+
+.rubles {
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 59px;
+    color: #262635;
+}
+
+.mn {
+    margin: 0;
+}
+
+.ant-statistic {
+    line-height: 0;
+}
+
+.subs-text {
+    margin-top: 5px;
+}
+
+.bonus-text {
+    margin-top: 5px;
+}
+
+.add-yt-channel-btn {
+    width: 159px;
+    height: 45px;
+    border: none;
+    background: #CCF0BF;
+    box-shadow: 4px 4px 15px 2px rgba(204, 240, 191, 0.25);
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #262635;
+}
+
+.add-yt-channel-btn:hover {
+    background: #CCF0BF;
+}
+
+.mb10px {
+    margin-bottom: 10px !important;
+}
+
+.copy-code {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #262635;
+}

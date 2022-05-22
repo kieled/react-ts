@@ -1,0 +1,21 @@
+export default interface IChannel {
+    id: number,
+    date_sell?: string | null,
+    date_buy?: string | null,
+    type: string,
+    name: string,
+    subs: number,
+    url: string,
+    price?: number | null,
+    price_mini: number,
+    usd_price_mini: number,
+    expenses: number,
+    price_sell?: number | null,
+    status: string,
+    owner: string,
+    date_pub: string,
+    profit?: number | null,
+    workstation?: number | null,
+    is_requested: boolean,
+    worker: number
+}
