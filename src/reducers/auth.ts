@@ -62,9 +62,9 @@ export const authSlice = createSlice({
         },
         load_user_success: (state, action: PayloadAction<IUser>) => {
             state.user = action.payload
-            state.user_orders = action.payload.orders
-            state.user_channels = action.payload.channels
-            state.user_transactions = action.payload.transactions
+            state.user_orders = action.payload.orders.reverse()
+            state.user_channels = action.payload.channels.reverse()
+            state.user_transactions = action.payload.transactions.reverse()
             state.isLoading = false
         },
         authentication_failed: (state) => {

@@ -58,13 +58,13 @@ export const conf = (token?: string | null) => {
     }
 }
 
-export const getOrders = (worker = '') => async (dispatch: AppDispatch) => {
+export const getOrders = (worker = '', page=1) => async (dispatch: AppDispatch) => {
     const config = conf(localStorage.getItem('access'))
 
     try {
         const {data} = await axios
             .get<{ results: IOrder[], count: number }>(
-                `${back_url}a/b-orders/?worker${worker}`, config
+                `${back_url}a/b-orders/?worker${worker}&page=${page}`, config
             );
         await dispatch(adminActions.get_orders(data.results))
         await dispatch(adminActions.set_count(data.count))

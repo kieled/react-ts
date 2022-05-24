@@ -1,8 +1,8 @@
-import React, {useEffect, useState} from "react";
-import {Button, Form, Input} from "antd";
-import {layoutActions} from "../../reducers/layout";
-import {sendMessages} from "../../actions/admin";
-import {useAppDispatch} from "../../hooks";
+import React, {useEffect, useState} from "react"
+import {Button, Form, Input} from "antd"
+import {layoutActions} from "../../reducers/layout"
+import {sendMessages} from "../../actions/admin"
+import {useAppDispatch} from "../../hooks"
 
 const SendMessages = () => {
     const dispatch = useAppDispatch()
@@ -11,7 +11,7 @@ const SendMessages = () => {
 
     useEffect(() => {
         async function onLoad() {
-            document.title = "Панель управления";
+            document.title = "Панель управления"
             dispatch(layoutActions.set_name("Рассылка сообщений Telegram"))
         }
 
@@ -45,7 +45,7 @@ const SendMessages = () => {
                 </Form.Item>
             </Form>
         </>
-    );
+    )
 }
 
 

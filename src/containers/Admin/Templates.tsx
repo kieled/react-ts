@@ -1,9 +1,9 @@
-import React, {useEffect, useState} from "react";
-import {layoutActions} from "../../reducers/layout";
-import {getTemplates, editTemplates} from "../../actions/admin";
-import {Button, Form, Input, Modal, Row} from "antd";
-import {toast} from "react-toastify";
-import {useAppDispatch, useAppSelector} from "../../hooks";
+import React, {useEffect, useState} from "react"
+import {layoutActions} from "../../reducers/layout"
+import {getTemplates, editTemplates} from "../../actions/admin"
+import {Button, Form, Input, Modal, Row} from "antd"
+import {toast} from "react-toastify"
+import {useAppDispatch, useAppSelector} from "../../hooks"
 
 
 const Templates = () => {
@@ -80,7 +80,7 @@ const Templates = () => {
                 </Form>
             </Modal>
         </>
-    );
+    )
 }
 
 export default Templates
