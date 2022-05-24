@@ -11,5 +11,4 @@ User Interface Screenshots:
 Admin Panel Screenshots:
 ![Screenshot from 2022-05-24 13-28-59](https://user-images.githubusercontent.com/68655454/170011827-420762a2-c5a3-4d17-9fb8-c51b318c575e.png)
 ![Screenshot from 2022-05-24 13-28-46](https://user-images.githubusercontent.com/68655454/170011830-500ea42b-c671-484e-a1eb-a493ac5e3c1b.png)
-![Screenshot from 2022-05-24 13-28-00](https://user-images.githubusercontent.com/68655454/170011834-b09052cf-ee83-47a4-96e6-110ad143c71e.png)
 ![Screenshot from 2022-05-24 13-27-48](https://user-images.githubusercontent.com/68655454/170011837-ed089747-437a-47a4-9e95-ceed1f45e240.png)
